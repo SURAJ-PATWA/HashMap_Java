@@ -8,7 +8,9 @@ public class Frequency_Of_array_Element {
             map.put(i,map.getOrDefault(i,0)+1);
         }
         for(Map.Entry<Integer,Integer>e:map.entrySet()){
-            System.out.println(e.getKey()+" "+e.getValue());
+            System.out.println(e.getKey()+" "+e.getValue()); //50 2
+                                                               // 40 1
+                                                                // 10 2
         }
     }
 
